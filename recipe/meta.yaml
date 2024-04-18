@@ -27,10 +27,10 @@ requirements:
   host:
     - r-base
     - r-dt
-    - r-factominer
     - r-matrix
     - r-snowballc
     - r-bibliometrixdata
+    - r-ca
     - r-dimensionsr
     - r-dplyr
     - r-forcats
@@ -52,10 +52,10 @@ requirements:
   run:
     - r-base
     - r-dt
-    - r-factominer
     - r-matrix
     - r-snowballc
     - r-bibliometrixdata
+    - r-ca
     - r-dimensionsr
     - r-dplyr
     - r-forcats
