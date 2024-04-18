@@ -1,4 +1,4 @@
-{% set version = "4.1.4" %}
+{% set version = "4.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bibliometrix_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bibliometrix/bibliometrix_{{ version }}.tar.gz
-  sha256: c282ef8542e9e93c6d1e856c5e5bd1a4e2ec76b6faa511219ab9127b9daa0bd4
+  sha256: e476dcdd260be3b02fc2dae8ec6e4078ff7425c39094cdd37ec150722e881bed
 
 build:
   merge_build_host: true  # [win]
@@ -27,10 +27,10 @@ requirements:
   host:
     - r-base
     - r-dt
-    - r-factominer
     - r-matrix
     - r-snowballc
     - r-bibliometrixdata
+    - r-ca
     - r-dimensionsr
     - r-dplyr
     - r-forcats
@@ -52,10 +52,10 @@ requirements:
   run:
     - r-base
     - r-dt
-    - r-factominer
     - r-matrix
     - r-snowballc
     - r-bibliometrixdata
+    - r-ca
     - r-dimensionsr
     - r-dplyr
     - r-forcats
