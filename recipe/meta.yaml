@@ -1,4 +1,4 @@
-{% set version = "4.2.1" %}
+{% set version = "4.2.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bibliometrix_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bibliometrix/bibliometrix_{{ version }}.tar.gz
-  sha256: 72ea57ef7d67bbe1d7c4acf2095b984488dfec415f8613026ebe47077893b672
+  sha256: f4388fa466f169234f5c98b2324cafed06217de9f07fc693692d2496713d6620
 
 build:
   merge_build_host: true  # [win]
