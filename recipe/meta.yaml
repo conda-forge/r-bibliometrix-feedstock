@@ -39,14 +39,17 @@ requirements:
     - r-openxlsx
     - r-plotly
     - r-pubmedr
+    - r-purrr
     - r-readr
     - r-readxl
     - r-rscopus
     - r-shiny
     - r-stringdist
     - r-stringi
+    - r-stringr
     - r-tidyr
     - r-tidytext
+    - r-visnetwork
   run:
     - r-base
     - r-dt
@@ -64,14 +67,17 @@ requirements:
     - r-openxlsx
     - r-plotly
     - r-pubmedr
+    - r-purrr
     - r-readr
     - r-readxl
     - r-rscopus
     - r-shiny
     - r-stringdist
     - r-stringi
+    - r-stringr
     - r-tidyr
     - r-tidytext
+    - r-visnetwork
 
 test:
   commands:
