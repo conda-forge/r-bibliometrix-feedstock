@@ -1,4 +1,4 @@
-{% set version = "5.0.1" %}
+{% set version = "5.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bibliometrix_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bibliometrix/bibliometrix_{{ version }}.tar.gz
-  sha256: e0cdca1438e837f27e2f13b271019cf4e4f607bf7a7b6f51688da57665ee9efa
+  sha256: db6e686c8f242cad08e77f2e18acf80d288c8f2080cd730e4a855ef2cd9d50bf
 
 build:
   number: 0
