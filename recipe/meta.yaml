@@ -44,9 +44,11 @@ requirements:
     - r-readxl
     - r-rscopus
     - r-shiny
+    - r-shinycssloaders >=1.1.0
     - r-stringdist
     - r-stringi
     - r-stringr
+    - r-tibble
     - r-tidyr
     - r-tidytext
     - r-visnetwork
@@ -72,9 +74,11 @@ requirements:
     - r-readxl
     - r-rscopus
     - r-shiny
+    - r-shinycssloaders >=1.1.0
     - r-stringdist
     - r-stringi
     - r-stringr
+    - r-tibble
     - r-tidyr
     - r-tidytext
     - r-visnetwork
