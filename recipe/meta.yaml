@@ -29,6 +29,7 @@ requirements:
     - r-snowballc
     - r-bibliometrixdata
     - r-ca
+    - r-contentanalysis
     - r-dimensionsr
     - r-dplyr
     - r-forcats
@@ -59,6 +60,7 @@ requirements:
     - r-snowballc
     - r-bibliometrixdata
     - r-ca
+    - r-contentanalysis
     - r-dimensionsr
     - r-dplyr
     - r-forcats
