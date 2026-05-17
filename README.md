@@ -7,7 +7,7 @@ Home: https://www.bibliometrix.org
 
 Package license: GPL-3.0-only
 
-Summary: Tool for quantitative research in scientometrics and bibliometrics. It provides various routines for importing bibliographic data from 'SCOPUS', 'Clarivate Analytics Web of Science' (<https://www.webofknowledge.com/>), 'Digital Science Dimensions' (<https://www.dimensions.ai/>), 'Cochrane Library' (<https://www.cochranelibrary.com/>),  'Lens' (<https://lens.org>), and 'PubMed' (<https://pubmed.ncbi.nlm.nih.gov/>) databases, performing bibliometric analysis and building networks for co-citation, coupling, scientific collaboration and co-word analysis.
+Summary: Tool for quantitative research in scientometrics and bibliometrics. It implements the comprehensive workflow for science mapping analysis proposed in Aria M. and Cuccurullo C. (2017) <doi:10.1016/j.joi.2017.08.007>. 'bibliometrix' provides various routines for importing bibliographic data from 'SCOPUS', 'Clarivate Analytics Web of Science' (<https://www.webofknowledge.com/>), 'Digital Science Dimensions' (<https://www.dimensions.ai/>), 'OpenAlex' (<https://openalex.org/>), 'Cochrane Library' (<https://www.cochranelibrary.com/>),  'Lens' (<https://lens.org>), and 'PubMed' (<https://pubmed.ncbi.nlm.nih.gov/>) databases, performing bibliometric analysis and building networks for co-citation, coupling, scientific collaboration and co-word analysis.
 
 Development: https://github.com/massimoaria/bibliometrix
 
