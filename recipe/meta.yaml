@@ -1,4 +1,4 @@
-{% set version = "5.4.0" %}
+{% set version = "5.4.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bibliometrix_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bibliometrix/bibliometrix_{{ version }}.tar.gz
-  sha256: 9b047a92be1470cfed351428f78cae32a360ace99ae575d2daef779256458543
+  sha256: f69d4ab3ffad65ba9da87d3f8e8a4824f99f7f16c2af4baaa7907508af27a0c2
 
 build:
   number: 0
@@ -102,15 +102,9 @@ about:
   home: https://www.bibliometrix.org
   dev_url: https://github.com/massimoaria/bibliometrix
   license: GPL-3.0-only
-  summary: Tool for quantitative research in scientometrics and bibliometrics. It implements
-    the comprehensive workflow for science mapping analysis proposed in Aria M. and
-    Cuccurullo C. (2017) <doi:10.1016/j.joi.2017.08.007>. 'bibliometrix' provides various
-    routines for importing bibliographic data from 'SCOPUS', 'Clarivate Analytics Web
-    of Science' (<https://www.webofknowledge.com/>), 'Digital Science Dimensions' (<https://www.dimensions.ai/>),
-    'OpenAlex' (<https://openalex.org/>), 'Cochrane Library' (<https://www.cochranelibrary.com/>),  'Lens'
-    (<https://lens.org>), and 'PubMed' (<https://pubmed.ncbi.nlm.nih.gov/>) databases,
-    performing bibliometric analysis and building networks for co-citation, coupling,
-    scientific collaboration and co-word analysis.
+  summary: Tool for quantitative research in scientometrics and bibliometrics. It implements the comprehensive workflow for science mapping analysis proposed in Aria M. and Cuccurullo C. (2017) <doi:10.1016/j.joi.2017.08.007>. 'bibliometrix' provides various routines for importing bibliographic data from 'SCOPUS', 
+    'Clarivate Analytics Web of Science' (<https://www.webofknowledge.com/>), 'Digital Science Dimensions' (<https://www.dimensions.ai/>), 'OpenAlex' (<https://openalex.org/>), 'Cochrane Library' (<https://www.cochranelibrary.com/>),  'Lens' (<https://lens.org>), and 'PubMed' (<https://pubmed.ncbi.nlm.nih.gov/>) 
+    databases, performing bibliometric analysis and building networks for co-citation, coupling, scientific collaboration and co-word analysis.
   license_family: GPL3
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
